@@ -1,0 +1,75 @@
+body {
+    font-family: Liberation Sans, Arial, sans-serif;
+    background-color: #d1d1d1;
+    line-height 1.75;
+}
+
+main {
+    max-width: 78ch;
+    padding: 2ch;
+    margin: auto;
+}
+
+header {
+    max-width: 78ch;
+    padding: 1ch 2ch 0;
+    margin: auto;
+}
+body {
+    background: #282a36;
+    color:      #f8f8f2;
+}
+
+h1 {
+    font-size: 1.75em;
+    margin-bottom: .25rem;
+}
+
+code {
+    font-family: 'Iosevka', monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    font-family: 'Iosevka', monospace;
+    overflow-x: auto;
+    padding: 0.5ch;
+    border: 2px solid #44475a;
+    padding: 10px;
+    scrollbar-width: none;
+}
+
+pre::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#fn {
+    font-size: 85%;
+}
+
+::selection {
+    background: #44475a;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #bd93f9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+hr {
+    border-top: 1px solid  #bd93f9;
+    margin-top: 2rem;
+}

@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main>
+  <article>
+    <center>
+      <h1>{{ .Title }}</h1>
+    </center>
+    <center>
+      <time>{{ .Date.Format "2006 January 02" }}</time>
+    </center>
+    <div style="float:right">
+      tags:
+      {{ with .Params.tags }}
+      {{ range . }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+    <hr>
+    <div>
+      {{ .Content }}
+    </div>
+    <p style="font-size:1.25em;text-align:center">
+      {{ if .Prev }}
+      <a href="{{ .Prev.RelPermalink }}">&#x21E6;</a>
+      {{ end }}
+      {{ if .Next }}
+      <a href="{{ .Next.RelPermalink }}">&#x21E8;</a>
+      {{ end }}
+    </p>
+  </article>
+</main>
+{{ end }}

@@ -1,0 +1,7 @@
+baseURL = "https://blog.erebid.dev/"
+languageCode = "en-us"
+title = "blog.erebid.dev"
+theme = "erebid"
+pygmentsUseClasses=true
+summaryLength = 2
+
