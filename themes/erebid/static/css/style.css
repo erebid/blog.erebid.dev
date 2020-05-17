@@ -1,5 +1,5 @@
 /* TODO: make the cursor work better */
-body { cursor: url(/cursor.png), auto; }
+body, a { cursor: url(/cursor.png), auto; }
 /* credit to 9front.org for that cursor image */
 
 body {
@@ -9,15 +9,16 @@ body {
 
 main {
     max-width: 78ch;
-    padding: 2ch;
+    padding: 2ch, 0ch;
     margin: auto;
 }
 
-header {
+header,footer {
     max-width: 78ch;
     padding: 1ch 2ch 0;
     margin: auto;
 }
+
 body {
     background: #ffffea;
     /* color:      #f8f8f2; */
@@ -37,7 +38,7 @@ pre {
     font-family: 'Iosevka', monospace;
     overflow-x: auto;
     padding: 0.5ch;
-    border: 2px solid #000;
+    border: 2px solid #0287c8;
     padding: 10px;
     scrollbar-width: none;
 }
@@ -69,5 +70,6 @@ a:hover {
 }
 
 hr {
+    color: #0287c8;
     margin-top: 2rem;
 }
