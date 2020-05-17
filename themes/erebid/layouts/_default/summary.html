@@ -1,10 +1,10 @@
 <article>
   <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
   <time>{{ .Date.Format "2006 January 02" }}</time>
-  {{if .Params.tags}}
+  {{ with .Params.tags }}
   <br> tags:
-  {{ range .Params.tags }}
+  {{ range .}}
   <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
-  {{end}}
+  {{ end }}
 </article>

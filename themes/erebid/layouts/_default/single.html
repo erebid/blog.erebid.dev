@@ -8,12 +8,12 @@
       <time>{{ .Date.Format "2006 January 02" }}</time>
     </center>
     <div style="float:right">
-      tags:
       {{ with .Params.tags }}
+      tags:
       {{ range . }}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
       {{ end }}
-      {{ end }}
+      {{end}}
     </div>
     <hr>
     <div>
