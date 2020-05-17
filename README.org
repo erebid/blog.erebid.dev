@@ -1,2 +1,6 @@
 * [[https://blog.erebid.dev][blog.erebid.dev]]
 My blog.
+
+It's written in [[file:blog.org][one big org file]] and exported using ox-hugo. If you'd like to see how I've setup CI for this, look at the Makefile, setup.el, and .build.yml to get an idea. (tldr; i just make emacs run a script to export the org file to individual Markdown files, then have hugo generate the site itself)
+
+The blog's code (html templates, css, etc.) is licensed under the ISC license. The articles themselves are licensed as CC-BY-SA. Read LICENSE for more information.
