@@ -7,7 +7,7 @@
   (add-to-list 'package-archives (cons "melpa" url)))
 (setq package-user-dir "/tmp/emacs-blog-stuff")
 (package-initialize)
-;; (package-refresh-contents)
+(package-refresh-contents)
 (defvar packages '(ox-hugo))
 (dolist (p packages)
   (unless (package-installed-p p)

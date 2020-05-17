@@ -1,15 +1,17 @@
 #+HUGO_BASE_DIR: .
 #+HUGO_SECTION: posts/
 #+options: author:nil
-* TODO Making a blog with Hugo and ox-hugo                       :emacs:meta:
+* test
+test test
+#+include "./blog.org" src org
+* TODO Making a blog with Emacs + ox-hugo, and automating deployment with  builds.sr.ht :emacs:meta:
   :PROPERTIES:
   :EXPORT_FILE_NAME: first
   :EXPORT_DATE: 2020-05-11
   :END:
 Today I decided to setup a blog where I can more publically voice my opinions, whether they be tech-related or not.
 
-There are many static site generators used for creating blogs, and I ultimately ended up choosing [[https://gohugo.io][Hugo]]. I picked it over Jekyll because it's faster. Like, [[https://forestry.io/blog/hugo-vs-jekyll-benchmark/][/a lot/ faster]]. Not only that, but there's a wonderful plugin for Emacs called [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]], which allows me to write my blog in a single Org file, and then export it to individual files for each post.
+There are many static site generators used for creating blogs, and I ultimately ended up choosing [[https://gohugo.io][Hugo]]. I picked it over Jekyll because it's faster. Like, [[https://forestry.io/blog/hugo-vs-jekyll-benchmark/][/a lot/ faster]]. Not only that, but there's a wonderful plugin for Emacs called [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]], which allows me to write my blog in a single Org file, and then export it to individual files for each post.``
 
-** Getting ox-hugo to export programatically
-
-With ox-hugo, I can export my blog from my Org file using =M-x=
+After installing Hugo, and setting up a basic theme, I had to get a way to programatically export the blog from Org to Markdown. Although I /can/ do it myself from Emacs, I'd much rather only have to edit the file and push.
+#+include: "./setup.el" src emacs-lisp
