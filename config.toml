@@ -4,4 +4,5 @@ title = "blog.erebid.dev"
 theme = "erebid"
 pygmentsUseClasses=true
 summaryLength = 2
-
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
