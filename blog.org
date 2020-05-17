@@ -2,6 +2,10 @@
 #+HUGO_SECTION: posts/
 #+options: author:nil
 * test
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: tesst
+  :EXPORT_DATE: 2020-05-16
+  :END:
 test test
 #+include "./blog.org" src org
 * TODO Making a blog with Emacs + ox-hugo, and automating deployment with  builds.sr.ht :emacs:meta:
