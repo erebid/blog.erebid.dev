@@ -89,7 +89,7 @@ pre {
     scrollbar-width: none;
 }
 
-#post-list h3 {
+.post-list h3 {
     display: inline-block;
 }
 
