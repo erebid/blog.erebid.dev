@@ -1,6 +1,6 @@
 {{ partial "header.html" .}}
-{{ range .Paginator.Pages }}
 <div class="post-list">
+{{ range .Paginator.Pages }}
 {{ .Render "summary" }}
 {{ end }}
 </div>
