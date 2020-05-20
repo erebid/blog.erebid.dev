@@ -1,8 +1,12 @@
-baseURL = "https://blog.erebid.dev/"
+baseURL = "https://erebid.dev/"
 languageCode = "en-us"
-title = "blog.erebid.dev"
+title = "erebid"
 theme = "erebid"
 pygmentsUseClasses=true
 summaryLength = 2
 [permalinks]
-  posts = "/:year/:month/:day/:title/"
+   blog = "blog/:year/:title/"
+[taxonomies]
+	tag = "tags"
+[markup.goldmark.renderer]
+	unsafe = true

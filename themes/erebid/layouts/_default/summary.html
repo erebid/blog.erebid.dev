@@ -1,10 +1,6 @@
 <article>
-  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
   <time>{{ .Date.Format "2006 January 02" }}</time>
-  {{ with .Params.tags }}
-  <br> tags:
-  {{ range .}}
-  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-  {{ end }}
-  {{ end }}
+  <h3>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
 </article>

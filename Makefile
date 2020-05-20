@@ -8,7 +8,3 @@ md:
 	)" ./blog.org \
 	-f org-hugo-export-all-wim-to-md \
 	@echo "Done"
-
-clean:
-	@rm -rf public/*
-	@rm -rf content/posts/*

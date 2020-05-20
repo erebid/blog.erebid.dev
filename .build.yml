@@ -4,19 +4,19 @@ packages:
   - hugo
   - rsync
 sources:
-  - https://github.com/erebid/blog.erebid.dev
+  - https://github.com/erebid/erebid.dev
 environment:
   deploy: sam@144.172.83.108
 secrets:
   - 721fdf17-b06d-4168-8bc2-c81a6680abae
 tasks:
   - md: |
-      cd blog.erebid.dev
+      cd erebid.dev
       make md
-  - build: |
-      cd blog.erebid.dev
+  - hugo: |
+      cd erebid.dev
       hugo
   - deploy: |
-      cd blog.erebid.dev
+      cd erebid.dev
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/blog.erebid.dev
+      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/erebid.dev
