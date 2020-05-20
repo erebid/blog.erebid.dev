@@ -1,5 +1,5 @@
 #+HUGO_BASE_DIR: .
-#+HUGO_SECTION: posts/
+#+HUGO_SECTION: blog/
 #+options: author:nil
 * Making a blog with Emacs, Hugo, and builds.sr.ht               :emacs:meta:
   :PROPERTIES:
