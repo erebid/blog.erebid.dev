@@ -1,2 +1,4 @@
 * [[https://blog.erebid.dev][erebid.dev]]
 My personal website.
+
+[[https://erebid.dev/img/doom.svg]]
