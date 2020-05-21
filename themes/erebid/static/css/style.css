@@ -1,6 +1,5 @@
 html {
     background-color: #ffffea;
-    color
 }
 
 body {
@@ -11,11 +10,6 @@ body {
 
 body > header {
 	text-align: center;
-}
-
-body > header h1 {
-	width: auto;
-	font-size: 2em;
 }
 
 body > header img {
