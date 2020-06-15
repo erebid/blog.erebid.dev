@@ -1,6 +1,5 @@
 image: alpine/edge
 packages:
-  - emacs-nox
   - hugo
   - rsync
 sources:
@@ -10,9 +9,6 @@ environment:
 secrets:
   - 721fdf17-b06d-4168-8bc2-c81a6680abae
 tasks:
-  - md: |
-      cd erebid.dev
-      make md
   - hugo: |
       cd erebid.dev
       hugo
