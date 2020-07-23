@@ -7,7 +7,7 @@ sources:
 environment:
   deploy: sam@144.172.83.108
 secrets:
-  - 721fdf17-b06d-4168-8bc2-c81a6680abae
+  - ebc839e4-6443-4a5d-bb25-605aa2c10b1f
 tasks:
   - hugo: |
       cd erebid.dev
