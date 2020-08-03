@@ -4,7 +4,7 @@ packages:
   - hugo
   - rsync
 sources:
-  - https://github.com/erebid/erebid.dev
+  - https://github.com/samhza/erebid.dev
 environment:
   deploy: sam@144.172.83.108
 secrets:
