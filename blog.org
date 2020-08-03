@@ -1,0 +1,21 @@
+#+HUGO_BASE_DIR: .
+#+HUGO_SECTION: blog/
+#+options: author:nil
+* Making a blog with Emacs, Hugo, and builds.sr.ht               :emacs:meta:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: blog-emacs-hugo
+  :EXPORT_DATE: 2020-05-16
+  :END:
+Today I decided to setup a blog where I can publically voice my opinions, whether they be tech-related or not. I wrote this short first blog post to share some of the code behind this blog, in case anyone else out there wants to setup a blog like this one.
+
+There are many static site generators used for creating blogs, and I ultimately ended up choosing [[https://gohugo.io][Hugo]]. I picked it over Jekyll mainly because Hugo is faster. Like, [[https://forestry.io/blog/hugo-vs-jekyll-benchmark/][/a lot/ faster]]. Not only that, but there's a powerful plugin for Emacs called [[https://ox-hugo.scripter.co][ox-hugo]], which allows me to write *all* of my blog posts in a [[https://github.com/erebid/blog.erebid.dev/blob/master/blog.org][single Org file]], and then export it to Markdown for Hugo.
+
+After installing Hugo and setting up a basic theme, I had to get a way to programatically export the blog from Org to Markdown. Although I /can/ do it myself from Emacs, committing the generated Markdown /and/ handwritten Org would make for messy diffs.
+
+I wrote a little script in elisp that would just install ox-hugo:
+#+include: "./setup.el" src emacs-lisp
+and then I wrote a simple Makefile runs that elisp script, and then generates the Markdown with ox-hugo site with Hugo:
+#+include: "./Makefile" src emacs-lisp
+and now, to top it all off, I setup a build manifest for [[https://builds.sr.ht][builds.sr.ht]], so that as soon as I push any changes to Git, the blog will be automatically updated on the live site.
+#+include: "./.build.yml" src yml
+And that's pretty much all there is to my blog. If you'd like to see some of the templates and stylesheets, check out the Git repo [[https://github.com/erebid/blog.erebid.dev][here]].
