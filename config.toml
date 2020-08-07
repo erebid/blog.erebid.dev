@@ -1,12 +1,7 @@
-baseURL = "https://erebid.dev/"
+baseURL = "https://samhza.com/"
 languageCode = "en-us"
-title = "erebid"
-theme = "erebid"
+theme = "samhza"
+title = "Samuel Hernandez"
 pygmentsUseClasses=true
-summaryLength = 2
-[permalinks]
-   blog = "blog/:year/:title/"
-[taxonomies]
-	tag = "tags"
 [markup.goldmark.renderer]
 	unsafe = true

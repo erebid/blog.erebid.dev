@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /pub
-
-Sitemap: https://erebid.dev/sitemap.xml

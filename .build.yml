@@ -1,22 +1,18 @@
 image: alpine/edge
 packages:
-  - emacs-nox
   - hugo
   - rsync
 sources:
-  - https://github.com/samhza/erebid.dev
+  - https://github.com/samhza/samhza.com
 environment:
-  deploy: sam@144.172.83.108
+  deploy: sam@samhza.com
 secrets:
   - ebc839e4-6443-4a5d-bb25-605aa2c10b1f
 tasks:
-  - md: |
-      cd erebid.dev
-      make md
   - hugo: |
-      cd erebid.dev
+      cd samhza.com
       hugo
   - deploy: |
-      cd erebid.dev
+      cd samhza.com
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/erebid.dev
+      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/samhza.com

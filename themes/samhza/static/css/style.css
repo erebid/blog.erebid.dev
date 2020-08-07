@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid gray;
+	max-width: 25px;
+	margin: 35px auto;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+	    background-color: black;
+	    color: #dfdfdf;
+    }
+
+    article img:not([src$=".jpg"]):not([src$=".jpeg"]) {
+	    background-color: white;
+	    border: 5px solid white;
+	    box-sizing: border-box;
+    }
+}
