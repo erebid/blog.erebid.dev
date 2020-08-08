@@ -1,5 +1,8 @@
-## I'm Samuel Hernandez, and this is my personal website.
-### Where to find me
++++
+title = "Samuel Hernandez"
++++
+This is my personal website.
+## Where to find me
 email: [sam.hernandez.amador@gmail.com](mailto:Samuel%20Hernandez%20<sam.hernandez.amador@gmail.com>)
 
 github: [samhza](https://github.com/samhza)

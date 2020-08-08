@@ -1,4 +1,4 @@
-{{ partial "header" }}
-<h1>{{.Title}}</h1>
-{{.Content}}
-{{ partial "footer" }}
+{{ partial "header" . }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ partial "footer" . }}
