@@ -12,4 +12,11 @@ mastodon: [@samhza@mastodon.technology](https://mastodon.technology/@samhza)
 pgp: [555CD256DD7D5FB413AC](key.txt)
 
 ## Hosted here
-[Some files](/pub/)
+
+At this domain I host a couple services for myself.
+
+Some files at [/pub/](/pub/)
+
+An IRC bouncer and web client at [irc.samhza.com](https://irc.samhza.com)
+
+A Mastodon client at [bloat.samhza.com](https://bloat.samhza.com)
