@@ -3,7 +3,7 @@ title = "E-Sammy"
 +++
 A Discord bot for making memes from images/gifs/videos.
 
-[Mailing list](~samhza/public-inbox@lists.sr.ht)
+[Mailing list](mailto:~samhza/public-inbox@lists.sr.ht)
 
 [GitHub page](https://github.com/samhza/esammy)
 
