@@ -2,12 +2,10 @@ image: alpine/edge
 packages:
   - hugo
   - rsync
-sources:
-  - https://github.com/samhza/samhza.com
 environment:
   deploy: sam@samhza.com
 secrets:
-  - ebc839e4-6443-4a5d-bb25-605aa2c10b1f
+  - 2fc91676-8471-4b2a-8eba-b1a3dd60f405
 tasks:
   - hugo: |
       cd samhza.com
