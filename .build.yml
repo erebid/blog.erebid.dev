@@ -7,10 +7,10 @@ environment:
 secrets:
   - 2fc91676-8471-4b2a-8eba-b1a3dd60f405
 tasks:
-  - hugo: |
+  - build: |
       cd samhza.com
       hugo
-  - deploy: |
+  - upload: |
+      echo "StrictHostKeyChecking=no" >> ~/.ssh/config
       cd samhza.com
-      sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/samhza.com
+      rsync -rP public/ $deploy:/var/www/samhza.com
