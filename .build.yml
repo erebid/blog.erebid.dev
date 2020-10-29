@@ -3,7 +3,7 @@ packages:
   - hugo
   - rsync
 environment:
-  deploy: sam@samhza.com
+  deploy: deploy@samhza.com
 secrets:
   - 2fc91676-8471-4b2a-8eba-b1a3dd60f405
 tasks:
