@@ -1,22 +1,17 @@
 +++
-title = "Samuel Hernandez"
+title = "samhza.com"
 +++
-Welcome, I'm Samuel and this is my personal website. I'm currently a sophomore in high school, studying IT/networking. I'm also learning to program, right now I'm working with Go.
-## Where to find me
 email: [sam.hernandez.amador@gmail.com](mailto:Samuel%20Hernandez%20<sam.hernandez.amador@gmail.com>)
-
-github: [samhza](https://github.com/samhza)
-
-mastodon: [@samhza@mastodon.technology](https://mastodon.technology/@samhza)
 
 pgp: [555CD256DD7D5FB413AC](key.txt)
 
-## Hosted here
+github: [samhza](https://github.com/samhza)
 
-At this domain I host a couple services for myself.
+sourcehut: [samhza](https://sr.ht/~samhza)
 
-Some files at [/pub/](/pub/)
+freenode: samhza
 
-An IRC bouncer and web client at [irc.samhza.com](https://irc.samhza.com)
+matrix: @sam@samhza.com
 
-A Mastodon client at [bloat.samhza.com](https://bloat.samhza.com)
+mastodon: [@samhza@mastodon.technology](https://mastodon.technology/@samhza)
+
