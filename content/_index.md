@@ -1,7 +1,7 @@
 +++
 title = "samhza.com"
 +++
-email: [sam.hernandez.amador@gmail.com](mailto:Samuel%20Hernandez%20<sam.hernandez.amador@gmail.com>)
+email: [sam@samhza.com](mailto:sam@samhza.com)
 
 pgp: [555CD256DD7D5FB413AC](key.txt)
 

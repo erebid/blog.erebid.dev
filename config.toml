@@ -1,7 +1,7 @@
 baseURL = "https://samhza.com/"
 languageCode = "en-us"
 theme = "samhza"
-title = "Samuel Hernandez"
+title = "samhza"
 pygmentsUseClasses=true
 [markup.goldmark.renderer]
 	unsafe = true
