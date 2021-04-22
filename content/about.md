@@ -1,6 +1,8 @@
-+++
-title = "samhza.com"
-+++
+---
+title: About
+---
+I'm studying computers.
+
 email: [sam@samhza.com](mailto:sam@samhza.com)
 
 pgp: [555CD256DD7D5FB413AC](key.txt)
@@ -11,7 +13,6 @@ github: [samhza](https://github.com/samhza)
 
 freenode: samhza
 
-matrix: @sam@samhza.com
+matrix: @sam:samhza.com
 
-mastodon: [@samhza@mastodon.technology](https://mastodon.technology/@samhza)
-
+mastodon: <a rel="me" href="https://mastodon.technology/@samhza">@sam@samhza.com</a>

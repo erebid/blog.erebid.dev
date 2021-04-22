@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /pub
-Disallow: /u
 
 Sitemap: https://samhza.com/sitemap.xml

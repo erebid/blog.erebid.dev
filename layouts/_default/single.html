@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+<header>
+<h1>{{ .Title }}</h1>
+{{ if not .Date.IsZero }}
+<time>{{ .Date.Format "2006-01-02" }}</time>
+{{ end }}
+</header>
+<article>
+{{ .Content }}
+</article>
+{{ partial "footer" . }}

@@ -1,0 +1,9 @@
+{{ partial "header.html" .}}
+<h1>{{ .Title }}</h1>
+<div class="post-list">
+{{ range .Paginator.Pages }}
+{{ .Render "summary" }}
+{{ end }}
+</div>
+{{ partial "pagination.html" . }}
+{{ partial "footer.html" .}}

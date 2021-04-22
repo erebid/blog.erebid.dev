@@ -1,7 +1,8 @@
 baseURL = "https://samhza.com/"
 languageCode = "en-us"
-theme = "samhza"
 title = "samhza"
 pygmentsUseClasses=true
 [markup.goldmark.renderer]
 	unsafe = true
+[permalinks]
+blog = "/:year/:filename"
