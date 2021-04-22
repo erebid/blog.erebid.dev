@@ -5,7 +5,7 @@ I'm studying computers.
 
 email: [sam@samhza.com](mailto:sam@samhza.com)
 
-pgp: [555CD256DD7D5FB413AC](key.txt)
+pgp: [555CD256DD7D5FB413AC](/key.txt)
 
 sourcehut: [samhza](https://sr.ht/~samhza)
 
