@@ -18,10 +18,8 @@ distributions.
 * No partial upgrades. The way its package system is designed, you
 can't selectively upgrade packages, you must upgrade the whole system
 at once.
-
 * Anything can be uploaded to the AUR by anyone. If you read the
-PKGBUILDS
-to check for malware before installing, this is a non-issue.
+PKGBUILDS to check for malware before installing, this is a non-issue.
 
 # NixOS
 * Nix's repository is the largest software repository of all Linux
