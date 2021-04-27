@@ -2,6 +2,8 @@ image: alpine/edge
 packages:
   - hugo
   - rsync
+sources:
+  - https://github.com/samhza/samhza.com
 environment:
   deploy: deploy@samhza.com
 secrets:
