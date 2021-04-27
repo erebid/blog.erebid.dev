@@ -1,6 +1,15 @@
 {{ partial "header" . }}
 <h1>{{ .Title }}</h1>
-Hello! This is my website. See <a href="/about">the about webpage</a> for information on where to contact me.
+<p>This is my website.</p>
+<ul>
+<li>email: <a href="mailto:sam@samhza.com">sam@samhza.com</a><br>
+<li>pgp: <a href="/key.txt">555CD256DD7D5FB413AC</a></li>
+<li>sourcehut: <a href="https://sr.ht/~samhza">samhza</a></li>
+<li>github: <a href="https://github.com/samhza">samhza</a></li>
+<li>freenode: samhza</li>
+<li>matrix: @sam:samhza.com</li>
+<li>mastodon: <a rel="me" href="https://mastodon.technology/@samhza">@sam@samhza.com</a></li>
+</ul>
 <h2>Posts</h2>
 {{ range (where .Site.RegularPages "Section" "blog") }}
 {{ .Render "summary" }}
