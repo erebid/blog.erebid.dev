@@ -1,11 +1,7 @@
 ---
-title: 9front QEMU Setup
+title: Basic 9front QEMU Setup
 date: 2021-11-07
 ---
-These are some commands I use when I want to set up a basic 9front VM under
-Linux.
-Learn more about 9front on [9front.org](http://9front.org/).
-
 The commands assume the following:
 * You have `9front.386.iso` in your working directory.
 You can get this from the
