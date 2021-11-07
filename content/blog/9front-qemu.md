@@ -2,6 +2,9 @@
 title: Basic 9front QEMU Setup
 date: 2021-11-07
 ---
+Quick and dirty 9front setup commands I use. Official documentation and other
+blogposts show more complete and functional setups.
+
 The commands assume the following:
 * You have `9front.386.iso` in your working directory.
 You can get this from the
