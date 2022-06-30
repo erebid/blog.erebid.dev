@@ -22,7 +22,7 @@ a, a:visited {
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: black;
+        background-color: 181a1b;
         color: #dfdfdf;
     }
 
