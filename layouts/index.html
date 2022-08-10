@@ -9,3 +9,7 @@
 <li>matrix: @sam:samhza.com</li>
 <li>mastodon: <a rel="me" href="https://mastodon.technology/@samhza">@sam@samhza.com</a></li>
 </ul>
+{{ range (where .Site.RegularPages "Section" "blog") }}
+{{ .Render "summary" }}
+{{ end }}
+{{ partial "footer" . }}
