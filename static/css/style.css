@@ -1,6 +1,8 @@
 body {
-    margin: 0;
+  max-width: 920px;
+    margin: 0 auto;
     font-family: sans-serif;
+    padding:1rem
 }
 
 hr {
@@ -14,12 +16,22 @@ a, a:visited {
     color: inherit;
 }
 
-.container {
-    max-width: 700px;
-    margin: auto;
-    padding: 15px;
+main, article {
+  margin: 0 auto;
+  max-width: 720px;
+  line-height: 1.5;
 }
 
+.article {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+footer{
+    margin-top:2rem;
+    text-align:center;
+    font-size:.8rem;
+}
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #181a1b;

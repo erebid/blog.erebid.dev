@@ -1,4 +1,5 @@
 {{ partial "header" . }}
+<main>
 <h1>{{ .Title }}</h1>
 <ul>
 <li>email: <a href="mailto:sam@samhza.com">sam@samhza.com</a><br>
@@ -9,7 +10,11 @@
 <li>matrix: @sam:samhza.com</li>
 <li>mastodon: <a rel="me" href="https://mastodon.technology/@samhza">@sam@samhza.com</a></li>
 </ul>
+<h2>Posts</h2>
+<div class="article-list">
 {{ range (where .Site.RegularPages "Section" "blog") }}
 {{ .Render "summary" }}
 {{ end }}
+</div>
+</main>
 {{ partial "footer" . }}
